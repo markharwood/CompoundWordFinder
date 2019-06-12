@@ -6,16 +6,16 @@ The outputs would be of use in creating either:
 a) synonym rules for analyzers - e.g. "elastic search = elasticsearch" or
 b) rules for rewriting queries e.g. queries for "ted baker dress" would extract brandname "ted baker" as a "must" clause.
 
-###Input files format
+### Input files format
 
 
 
-####Query file 
+#### Query file 
 CSV format with 2 columns:
 1) query string e.g. fit bit
 2) popularity
 
-####Document file
+#### Document file
 Plain text, one line per document e.g. a product description such as "fitbit"
 
 ### Running the code
