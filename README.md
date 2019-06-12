@@ -3,8 +3,8 @@ This is a tool to find compound words commonly misspelled in queries (eg "elasti
 
 The outputs would be of use in creating either:
 
-a) synonym rules for analyzers - e.g. "elastic search = elasticsearch" or
-b) rules for rewriting queries e.g. queries for "ted baker dress" would extract brandname "ted baker" as a "must" clause.
+* synonym rules for analyzers - e.g. "elastic search = elasticsearch" or
+* rules for rewriting queries e.g. queries for "ted baker blue dress" would extract brandname "ted baker" as a "must" phrase and run the remaining query text using laxer operators
 
 ### Input files format
 
