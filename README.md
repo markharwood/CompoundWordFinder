@@ -23,7 +23,7 @@ Plain text, one line per document e.g. a product description such as "fitbit"
 * Unzip the example data files provided as part of this repo into the `data` directory:
 * Run python FindCompoundWords.py (this is Python 2.7 compatible code)
 
-A temporary index called `temp_phrases` is created to perform the analysis
+A temporary index called `temp_phrases` is created to perform the analysis.
 
 ### Example output
 The query strings that look to be compound words are printed, sorted by a combination of popularity and likelihood to be a compound word.
